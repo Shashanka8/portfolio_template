@@ -1,0 +1,195 @@
+.first a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+.first {
+    background-image: url("image/manhattan.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100%;
+    height: 500px;
+}
+.first-content {
+    clear: both;
+    margin-left: 70px;
+    /* margin-top: 200px; */
+    font-size: 1.2em;
+}
+.second {
+    text-align: center;
+    clear: both;
+}
+.second a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    font-size: 1.5em;
+}
+.second-para {
+    padding: 20px 0 20px 0; 
+    margin: 0 30px 0 50px;
+    float: left;
+}
+.second i {
+    font-size: 2em;
+    color: rgba(0, 132, 255, 0.664);
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin: 0 20px 0 0;
+}
+.third {
+    text-align: center;
+    clear: both;
+    margin: 100px 30px 100px 30px;
+}
+.third a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    font-size: 1.5em;
+}
+#image1 img {
+    height: 200px;
+    width: 30%;
+    float: left;
+    margin: 20px;
+}
+.four {
+    clear: both;
+    margin: 100px 30px 100px 30px;
+}
+.four h1, .four>p {
+    text-align: center;
+}
+#four-content {
+    column-count: 2;
+}
+#four-content p {
+    margin: 30px;
+    padding: 10px;
+}
+#four-content i {
+    font-size: 2em;
+    height: 50px;
+    width: 50px;
+    background-color: rgba(0, 132, 255, 0.664);
+    color: white;
+    border-radius: 50%;
+}
+i:before {
+    content: "\e610";
+    display: block;
+    line-height: 50px;
+    width: 50px;
+    text-align: center;
+}
+.five {
+    clear: both;
+    background: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin: 60px 0 60px 0;
+}
+.five span {
+    display: inline-block;
+    width: 120px;
+}
+.six {
+    text-align: center;
+    clear: both; 
+    margin: 60px 0 20px 0;
+}
+.six figure {
+    display: inline-block;
+    margin: 20px;
+}
+.six img {
+    width: 250px;
+    height: 300px;
+    vertical-align: top;
+    position: relative;
+}
+.six figcaption {
+    text-align: center;
+    display: block;
+    position: relative;
+    top: -30px;
+    left: 10px;
+    background-color:white;
+    width: 230px;
+    padding: 10px;
+}
+.seven {
+    text-align: center;
+    clear: both;
+    margin: 60px 0 100px 0;
+}
+* {box-sizing: border-box;}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+input[type=submit] {
+    background-color: rgba(0, 132, 255, 0.664);
+    color: white;
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+footer {
+    clear: both;
+    background: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+}
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 1.1em;
+}
+/* #image1 {
+    display: grid;
+    grid-template-areas: "pic1 pic2 pic3"
+                         "pic4 pic2 pic6"
+                         ""
+}
+.pic1 {
+    grid-area: pic1;
+}
+.pic2 {
+    grid-area: pic2;
+}
+.pic3 {
+    grid-area: pic3;
+}
+.pic4 {
+    grid-area: pic4;
+}
+.pic5 {
+    grid-area: pic5;
+}
+pic6 {
+    grid-area: pic6;
+} */
